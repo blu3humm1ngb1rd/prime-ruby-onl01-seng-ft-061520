@@ -12,6 +12,6 @@ else
 number % num == 0
     
 end
-  
+end
   
 end
