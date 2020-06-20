@@ -2,7 +2,7 @@
 #turn range to array to iterate 
 
 def prime?(number)
-  
+  (1..number)
   number.each do |num|
     if num == 1 
        false 
