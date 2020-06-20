@@ -12,9 +12,10 @@ else
    # test number using range number if divisible by any in range; then not prime
    # 7 -> 2,3,4,5,6
    #8 -> 2, 3, 4,5,6,7
-   number % num == 0 
+   new_list = []
+new_list << number % num == 0 
     
-   #new_list = []
+   new_list.none?(0) 
 end
   
   
