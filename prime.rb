@@ -7,7 +7,9 @@ def prime?(number)
  if number < 2
    false 
 else 
-  number % number 
+  range = [number]
+  number.each do |num|
+    num % range
 end
   
   
