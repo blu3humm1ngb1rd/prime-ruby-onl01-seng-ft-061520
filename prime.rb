@@ -10,7 +10,7 @@ else
   (2..number-1).to_a.none? do |num|
   
 number % num == 0
-    
+    #8 -> 2,3,4,5,6,7
 end
 end
   
