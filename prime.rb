@@ -7,14 +7,14 @@ def prime?(number)
  if number < 2
    false 
 else 
-  (2..number-1).to_a.each do |num|
+  (2..number-1).to_a. do |num|
    #  num % number  #not prime is false
    # test number using range number if divisible by any in range; then not prime
    # 7 -> 2,3,4,5,6
    #8 -> 2, 3, 4,5,6,7
    num % number == 0 
-    return  false 
-   new_list = []
+    
+   #new_list = []
 end
   
   
